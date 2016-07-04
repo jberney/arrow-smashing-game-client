@@ -1,0 +1,33 @@
+h1 {
+    font-family: Verdana;
+    font-size: 15vw;
+    line-height: 70%;
+    margin: 4vw 0;
+    -webkit-transform: rotate3d(-0.5, 1, -0.1, 30deg);
+    text-align: center;
+    -webkit-text-fill-color: #ddd;
+    -webkit-text-stroke-width: .6vw;
+    -webkit-text-stroke-color: green;
+    text-shadow: -0.7vw -0.7vw #060;
+    white-space: pre-line;;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.push-start-button {
+    animation: fade 0.65s ease-in-out infinite alternate;
+    font-family: Verdana;
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+    -webkit-text-fill-color: #eee;
+    -webkit-text-stroke-width: .2vw;
+    -webkit-text-stroke-color: blue;
+}
